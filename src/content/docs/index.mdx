@@ -8,7 +8,7 @@ hero:
     file: ../../assets/houston.webp
   actions:
     - text: 快速开始
-      link: /guides/tree/
+      link: /container/docker/intro
       icon: right-arrow
     - text: 在 Github 上查看
       link: https://github.com/ZhcChen/doc
@@ -16,11 +16,11 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-## 领域分类
+## 都有些什么？
 
-<CardGrid stagger>
+<CardGrid>
 	<Card title="软件" icon="vscode">
 		软件相关的代码库，包括但不限于前端、后端、工具等。
 	</Card>
